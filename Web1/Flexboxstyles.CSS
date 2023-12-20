@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif; /* Optional: Choose your preferred font */
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-logo {
+    width: 100vw; /* Take the entire width of the viewport */
+    height: 500px; /* Adjust the height of the main logo */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .children-container {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between children */
+    width: 100%;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .child-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .children-container img {
+    flex: 0 0 35%; /* Adjust the width of child images */
+    max-width: 100%;
+    max-height: 350px; /* Adjust the maximum height of child images */
+    margin: 0 5px; /* Adjust as needed for spacing between child images */
+  }
+  
+  .text-box {
+    border: 2px solid #ccc; /* Border color */
+    padding: 10px;
+    width: 80%; /* Adjust the width of the text box */
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .inset-box {
+    border: 2px solid #ccc; /* Border color */
+    padding: 20px;
+    width: 80%; /* Adjust the width of the inset box */
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Add border to the text boxes */
+  .child-box .text-box {
+    border: 2px solid #ccc; /* Border color */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
