@@ -35,8 +35,8 @@ body {
   
   .children-container img {
     flex: 0 0 35%; /* Adjust the width of child images */
-    max-width: 100%;
-    max-height: 350px; /* Adjust the maximum height of child images */
+    max-width: 150%;
+    max-height: 400px; /* Adjust the maximum height of child images */
     margin: 0 5px; /* Adjust as needed for spacing between child images */
   }
   
